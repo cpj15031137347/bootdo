@@ -13,6 +13,7 @@ import javax.sql.DataSource;
 public class ActivitiConfig {
     //流程配置，与spring整合采用SpringProcessEngineConfiguration这个实现
     //saddsadsdsd
+    //laocao
     @Bean
     public ProcessEngineConfiguration processEngineConfiguration(DataSource dataSource, PlatformTransactionManager transactionManager){
         SpringProcessEngineConfiguration processEngineConfiguration = new SpringProcessEngineConfiguration();
